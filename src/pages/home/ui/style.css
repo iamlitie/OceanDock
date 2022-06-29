@@ -1,0 +1,29 @@
+.am-wingblank.am-wingblank-lg,
+.am-wingblank {
+    margin : 0
+}
+
+body {
+    background : #fff;
+}
+
+#root {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.stick {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+}
+.show {
+    display:block;
+    height: .4rem;
+    width: 100%
+}
+.hidden {
+    display: none
+}
